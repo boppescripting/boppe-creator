@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'boppe-pdcams'
-description 'boppe-pdcams'
+name 'boppe-jobcreator'
+description 'boppe-jobcreator'
 author 'boppe'
 version '1.0.0'
 
