@@ -12,7 +12,6 @@ local function constructGradesTable(data)
             retval[tostring(gradeIndex[1])].payment = v
         end
     end
-    for k,v in pairs(retval) do print(k,v) end
     return retval
 end
 
