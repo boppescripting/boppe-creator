@@ -14,3 +14,10 @@
 
 ## Permissions
 If you would like to change the required permission level from `admin` (default), then go into the `server/config.lua` file and alter it on line 2.
+
+## Screenshots
+![Create Job Pt.1](https://i.imgur.com/5KqFg55.jpeg)
+![Create Job Pt.2](https://i.imgur.com/RsXVeCJ.jpeg)
+![Confirmation notification](https://i.imgur.com/9nN06GK.png)
+![Proof of job working](https://i.imgur.com/HOPdldg.png)
+![Job in config file](https://i.imgur.com/wd3VrVK.png)
