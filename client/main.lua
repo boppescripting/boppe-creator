@@ -25,12 +25,7 @@ RegisterNetEvent('boppe-jobcreator:client:finishSetup', function(oldDialog)
     end
 
     local dialog = exports['qb-input']:ShowInput(menu)
-    print(dialog)
     if dialog ~= nil then
-        for k,v in pairs(dialog) do
-            print(k .. " : " .. v)
-        end
-
         local mergedTable = {}
         for k,v in pairs(oldDialog) do mergedTable[k] = v end
         mergedTable.grades = {}
