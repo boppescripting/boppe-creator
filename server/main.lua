@@ -26,10 +26,8 @@ local function saveJobToConfig(dataTable, gradesTable)
         "offdutypay = " .. dataTable.offdutypay .. ","
     )
 
+    file:write("grades = {")
     for k,v in pairs(gradesTable) do
-        if k == '0' then
-            file:write("grades = {")
-        end
         file:write("['" .. k .. "'] = { name = '" .. v.name .. "', payment = " .. v.payment .. "},")
     end
     file:write("}")
