@@ -1,15 +1,22 @@
 fx_version 'cerulean'
 game 'gta5'
 
-name 'boppe-jobcreator'
-description 'boppe-jobcreator'
+name 'boppe-creator'
+description 'boppe-creator'
 author 'boppe'
-version '1.0.0'
+version '1.1'
 
 lua54 'yes'
 
-client_scripts { 'client/*.lua' }
-server_scripts { 'server/config.lua', 'server/main.lua' }
+client_scripts {
+    'client/*.lua'
+}
+
+server_scripts {
+    'server/config.lua',
+    'server/util.lua',
+    'server/*.lua'
+}
 
 dependencies {
     'qb-core',
